@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Dmitry Pechatnikov">
+    <meta name="author" content="Dmitry Pechatnikov">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Dmitry Pechatnikov</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+            <a class="navbar-brand" href="#page-top">Dmitry Pechatnikov</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,13 +54,13 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#portfolio">Портфолио</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#about">About</a>
+                    <a href="#about">Обо мне</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#contact">Contact</a>
+                    <a href="#contact">Связаться</a>
                 </li>
             </ul>
         </div>
@@ -76,9 +76,9 @@
             <div class="col-lg-12">
                 <img class="img-responsive" src="img/profile.png" alt="">
                 <div class="intro-text">
-                    <span class="name">Start Bootstrap</span>
+                    <span class="name">Дмитирй Печатников</span>
                     <hr class="star-light">
-                    <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                    <span class="skills"> Web-Разработчик - Программист - Инженер</span>
                 </div>
             </div>
         </div>
@@ -170,14 +170,17 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                <p>
+                    Back-end Web-Разработчик, разрабатываю прложения любого уровня сложности.
+                    Хорошо разбираюсь в базах данных.
+                </p>
             </div>
             <div class="col-lg-4">
-                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <p>В свободное время программирую, играю на музыкальных инструментах, или занмаюсь Freelance</p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="#" class="btn btn-lg btn-outline">
-                    <i class="fa fa-download"></i> Download Theme
+                <a href="downloads/Dmitry Pechatnikov.pdf" class="btn btn-lg btn-outline">
+                    <i class="fa fa-download"></i> Скачать моё резюме
                 </a>
             </div>
         </div>
@@ -189,7 +192,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Contact Me</h2>
+                <h2>Связаться со мной</h2>
                 <hr class="star-primary">
             </div>
         </div>
@@ -200,29 +203,29 @@
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Name</label>
-                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                            <label>Имя</label>
+                            <input type="text" class="form-control" placeholder="Имя" id="name" required data-validation-required-message="Please enter your name.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Email Address</label>
-                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Please enter your email address.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Phone Number</label>
-                            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <label>Телефон</label>
+                            <input type="tel" class="form-control" placeholder="Телефон" id="phone" required data-validation-required-message="Please enter your phone number.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Message</label>
-                            <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <label>Сообщение</label>
+                            <textarea rows="5" class="form-control" placeholder="Сообщение" id="message" required data-validation-required-message="Please enter a message."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
@@ -230,7 +233,7 @@
                     <div id="success"></div>
                     <div class="row">
                         <div class="form-group col-xs-12">
-                            <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            <button type="submit" class="btn btn-success btn-lg">Отправить</button>
                         </div>
                     </div>
                 </form>
@@ -245,33 +248,33 @@
         <div class="container">
             <div class="row">
                 <div class="footer-col col-md-4">
-                    <h3>Location</h3>
-                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    <h3>Местоположение</h3>
+                    <p>Москва<br>Мичуринский пр-кт, 12</p>
                 </div>
-                <div class="footer-col col-md-4">
-                    <h3>Around the Web</h3>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>About Freelancer</h3>
-                    <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                </div>
+                {{--<div class="footer-col col-md-4">--}}
+                    {{--<h3>Around the Web</h3>--}}
+                    {{--<ul class="list-inline">--}}
+                        {{--<li>--}}
+                            {{--<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>--}}
+                        {{--</li>--}}
+                        {{--<li>--}}
+                            {{--<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>--}}
+                        {{--</li>--}}
+                        {{--<li>--}}
+                            {{--<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>--}}
+                        {{--</li>--}}
+                        {{--<li>--}}
+                            {{--<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>--}}
+                        {{--</li>--}}
+                        {{--<li>--}}
+                            {{--<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>--}}
+                        {{--</li>--}}
+                    {{--</ul>--}}
+                {{--</div>--}}
+                {{--<div class="footer-col col-md-4">--}}
+                    {{--<h3>About Freelancer</h3>--}}
+                    {{--<p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>--}}
+                {{--</div>--}}
             </div>
         </div>
     </div>
@@ -279,7 +282,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; Your Website 2014
+                    Copyright &copy; pechatny.su 2015
                 </div>
             </div>
         </div>
