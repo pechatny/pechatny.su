@@ -176,7 +176,7 @@
                 </p>
             </div>
             <div class="col-lg-4">
-                <p>В свободное время программирую, играю на музыкальных инструментах, или занмаюсь Freelance</p>
+                <p>В свободное время программирую, играю на музыкальных инструментах, или занимаюсь Freelance</p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <a href="downloads/Dmitry Pechatnikov.pdf" class="btn btn-lg btn-outline">
