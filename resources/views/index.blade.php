@@ -76,7 +76,7 @@
             <div class="col-lg-12">
                 <img class="img-responsive" src="img/profile.png" alt="">
                 <div class="intro-text">
-                    <span class="name">Дмитирй Печатников</span>
+                    <span class="name">Дмитирий Печатников</span>
                     <hr class="star-light">
                     <span class="skills"> Web-Разработчик - Программист - Инженер</span>
                 </div>
