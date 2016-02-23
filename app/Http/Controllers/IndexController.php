@@ -20,11 +20,12 @@ class IndexController extends Controller
 
     public function sendMail(Request $request){
         $string = '';
-        $string .= $request->has('name') ? ('Èìÿ: ' . $request->name . "\r\n") : '';
-        $string .= $request->has('phone') ? ('Òåëåôîí: ' . $request->phone . "\r\n") : '';
-        $string .= $request->has('email') ? ('Ïî÷òà: ' . $request->email . "\r\n") : '';
-        $string .= $request->has('message') ? ('Ñîîáùåíèå: ' . $request->message . "\r\n") : '';
+        $string .= $request->has('name') ? ('Ð˜Ð¼Ñ: ' . $request->name . "\r\n") : '';
+        $string .= $request->has('phone') ? ('Ð¢ÐµÐ»ÐµÑ„Ð¾Ð½: ' . $request->phone . "\r\n") : '';
+        $string .= $request->has('email') ? ('ÐŸÐ¾Ñ‡Ñ‚Ð°: ' . $request->email . "\r\n") : '';
+        $string .= $request->has('message') ? ('Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ: ' . $request->message . "\r\n") : '';
         Mail::raw($string, function ($m) {
+            $m->from('info@pechatny.su');
             $m->subject('pechatny.su');
             $m->to('pechatny@gmail.com');
         });
